@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+header, main {
+  text-transform: uppercase;
+}
+
+main p {
+  text-transform: none;
+}
+
+.header-container {
+  background-color: #FFF;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  margin: 30px 150px;
+}
+
+#logo-area {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.academy-logo-red {
+  color: #fff;
+  background-color: red;
+  padding: 5px 15px;
+}
+
+.academy-logo-academy {
+  color: #666;
+}
+
+nav {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.header-container ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header-container ul li {
+  display: inline-block;
+}
+
+#banner {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 230px 0;
+}
+
+#banner h1 {
+  padding: 20px;
+  font-size: 4.5em;
+}
+
+#banner h2 {
+  font-weight: 100;  
+  font-size: 3em;
+}
+
+#about, #contact {
+  padding: 0 0 80px;
+  margin: 20px auto;
+  text-align: center;
+  width: 60%;
+}
+
+#about {
+  border-bottom: 1px solid #666;
+}
+
+#about h2 {
+  font-size: 4em;
+  padding: 20px 0;
+}
+
+#about p {
+  color: #666;
+  line-height: 2;
+}
+
+#contact h2 {
+  font-size: 4em;
+  padding: 20px 0;
+}
+
+#contact p {
+  color: #666;
+  line-height: 2;
+}
+
+#contact form {
+  color: #666;
+  margin: 30px auto 0;
+  padding: 20px 0;
+  text-align: start;
+}
+
+#user-name, #user-email {
+  border: 1px solid #666;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  margin: 20px 0;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#submit-contact {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.5em;
+  margin: 20px 0;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 50px 0;
+  text-align: center;
+}
